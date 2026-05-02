@@ -1,5 +1,8 @@
 # AI-
 上传教材的pdf文件，ai总结关键点，用md文件或者pdf文件反馈给我
+
+
+
 ai-classhelper/
 ├── README.md
 ├── requirements.txt
