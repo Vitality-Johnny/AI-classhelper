@@ -1,13 +1,33 @@
-# AI-
-上传教材的pdf文件，ai总结关键点，用md文件或者pdf文件反馈给我
+# AI ClassHelper · AI 课本精读助手
+
+> 大二学生个人项目 · Qwen + DeepSeek 双模型混合调用
+
+## 功能
+
+| 功能 | 模型 | 说明 |
+|------|------|------|
+| 📖 知识点提取 | 通义千问 | 每章核心概念、定义、公式 |
+| 🖼 图表分析 | 通义千问 | 教材插图/流程图内容识别 |
+| ✍️ 练习题生成 | DeepSeek | 选择题 + 简答题 + 答案 |
+| 💻 代码示例 | DeepSeek | 代码/算法带注释示例 |
+| 📕 期末速览 | 双模型 | 全书浓缩 3-5 页 |
+
+## 快速开始
+
+```bash
+pip install -r requirements.txt
+export DASHSCOPE_API_KEY="你的Key"
+export DEEPSEEK_API_KEY="你的Key"
+python reader.py 教材.pdf
+
+
+      
 
 
 
-ai-classhelper/
-├── README.md
-├── requirements.txt
-├── config.py              # API key 配置（从环境变量读）
-├── reader.py              # 主程序：PDF → 知识点 → Markdown
-├── token_counter.py       # Token 统计工具
-└── samples/
-    └── example_output.md  # 示例输出文件
+Token 消耗（参考）
+
+
+        
+
+教材QwenDeepSeek总计数据结构（C语言版）~5 万~4 万~9 万计算机网络~4 万~3 万~7 万
