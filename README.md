@@ -1,6 +1,6 @@
 # AI ClassHelper · AI 课本精读助手
 
-> 大二学生个人项目 · Qwen + DeepSeek 双模型混合调用
+> 大一学生个人项目 · Qwen + DeepSeek 双模型混合调用
 
 ## 功能
 
@@ -30,4 +30,5 @@ Token 消耗（参考）
 
         
 
-教材QwenDeepSeek总计数据结构（C语言版）~5 万~4 万~9 万计算机网络~4 万~3 万~7 万
+教材QwenDeepSeek总计15w左右
+
